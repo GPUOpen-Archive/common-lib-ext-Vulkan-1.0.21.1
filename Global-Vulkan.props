@@ -9,7 +9,7 @@
       <AdditionalIncludeDirectories>$(VulkanReqsDir)SDK\Include\;$(VulkanReqsDir)SDK\Source\layers\;$(VulkanReqsDir)SDK\Source\loader\;$(VulkanReqsDir)SDK\Include\vulkan\;$(VulkanReqsDir)SDK\glslang\SPIRV\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(VulkanReqsDir)LoaderAndValidationLayers\lib\win\VS2015\$(GDTCRT)\$(GDTPlatform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(VulkanReqsDir)LoaderAndValidationLayers\lib\win\VS2015\$(AMDTCRT)\$(AMDTPlatform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>glslang.lib;OGLCompiler.lib;OSDependent.lib;SPIRV.lib;HLSL.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
